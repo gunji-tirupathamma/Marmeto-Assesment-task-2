@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shoping App</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Josefin+Sans&family=Open+Sans:wght@300;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+          </style>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="heading-container"> 
+                <h1 class="head">SELECT YOUR CHOICE</h1>
+                <div class="button-container">
+                    <button id="menButton" class="button" onclick="showProduct('men')">Men</button>
+                    <button id="womenButton" class="button" onclick="showProduct('women')">Women</button>
+                    <button id="kidsButton" class="button" onclick="showProduct('kids')">Kids</button>
+                </div>
+            </div>
+            <div id="products-container" class="products-container">
+
+            </div>
+
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
